@@ -3,7 +3,7 @@ class Database
 	{
 	// credenziali
 	private $host = "localhost";
-	private $db_name = "Comune";
+	private $db_name = "GameStop";
 	private $username = "root";
 	private $password = "";
 	public $conn;
