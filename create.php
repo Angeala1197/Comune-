@@ -18,9 +18,9 @@ if(
     !empty($data->Titolo) &&
     !empty($data->Anno)
 ){
-    $libro->ISBN = $data->Codice;
-    $libro->Titolo = $data->Titolo;
-    $libro->Autore = $data->Anno;
+    $gioco->Codice = $data->Codice;
+    $gioco->Titolo = $data->Titolo;
+    $gioco->Anno = $data->Anno;
 
     if($gioco->create()){
         http_response_code(201);
